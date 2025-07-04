@@ -202,7 +202,7 @@ html,body{
 
 
 #image{
-    background-image: url(bmwImages/x6.webp);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.3),rgba(0,0,0,0)), url('bmwImages/x6.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -252,7 +252,7 @@ html,body{
 }
 
 #image2{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('bmwImages/x3.webp');
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.3),rgba(0,0,0,0)), url('bmwImages/x3.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -273,7 +273,7 @@ html,body{
 }
 
 #image3{
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('bmwImages/7series.webp');
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.3),rgba(0,0,0,0)), url('bmwImages/7series.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -309,7 +309,7 @@ html,body{
 
 
 #image4{
-    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('bmwImages/4th.webp');
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.3),rgba(0,0,0,0)), url('bmwImages/4th.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
