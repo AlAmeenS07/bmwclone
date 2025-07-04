@@ -1,0 +1,471 @@
+*{
+        box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* phone icon */
+
+#phone{
+    position: fixed;
+    font-size: 1.25rem;
+    padding: .5rem;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: white;
+    right: 5rem;
+    bottom: 7rem;
+    box-shadow: 1px 1px 4px;
+}
+
+/* home */
+
+#home{
+    margin: 0;
+    padding: 0;
+    background-image: url(bmwImages/stolen2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 3.25rem;
+    height: auto;
+    margin: 1rem;
+    margin-left: 6rem;
+    border-radius: 50%;
+    color: black;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    margin: .75rem;
+    font-weight: 550;
+    font-size: 15.5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#nav a:hover{
+    text-decoration: underline blue 4px;
+    text-underline-offset: 2.60rem;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+}
+
+#hr{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+#control a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin: 1rem;
+
+}
+#control{
+    margin-right: 6rem;
+}
+
+#headText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.75rem;
+}
+
+.text{
+    margin-left: 6rem;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+#subText{
+    margin-top: -1rem;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight:lighter;
+    letter-spacing: 4px;
+}
+
+#homeBtn{
+    background-color: hsl(220, 88%, 57%);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 1.25rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#homeBtn:hover{
+    background-color: hsl(220, 88%, 47%)
+}
+
+/* about */
+
+#aboutHead{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 2%, 9%);
+}
+
+#yourBmw{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.car i{
+    font-size: 4em;
+}
+
+.car{
+    text-align: center;
+}
+
+.car button{
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    border: .5px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.car h3{
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.car button:hover{
+    border: 2px solid;
+}
+
+#imageGallery div{
+    background-image: url(bmwImages/x6.webp);
+    width: 100%;
+    height: 27rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 5rem;
+}
+
+#imageGallery div h1{
+    margin-left: 5rem;
+    font-size: 5rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#imageGallery div h5{
+    margin-left: 5rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    row-gap: 0;
+}
+
+
+#image{
+    background-image: url(bmwImages/x6.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+}
+
+.aboutText{
+    width: 50%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    position: relative;
+    top: 3rem;
+}
+
+.aboutText h2{
+    font-weight: lighter;
+    font-size: 9rem;
+    margin: 0;
+    padding: 0;
+    line-height: 5rem;
+}
+
+.aboutText h3{
+    margin: 0;
+    font-weight: lighter;
+    line-height: 6rem;
+}
+
+.aboutText h6{
+    margin: 0;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    line-height: 6rem;
+}
+
+.aboutText button{
+    border: 1px solid grey;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 10px 20px;
+    width: 13rem;
+    color: white;
+    border-radius: 3px;
+}
+
+#image2{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('bmwImages/x3.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+}
+
+.aboutText #img2{
+    font-weight: lighter;
+    font-size: 10rem;
+    margin: 0;
+    padding: 0;
+    line-height: 5rem;
+}
+
+#letterSpace{
+    letter-spacing: 4px;
+}
+
+#image3{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('bmwImages/7series.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+}
+
+.aboutText3{
+    margin-top: 2rem;
+    position: relative;
+    top: 17rem;
+    left: 7rem;
+}
+
+.aboutText3 h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.aboutText3 button{
+    background-color: transparent;
+    border: 1px solid grey;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    color: white;
+    width: 15rem;
+    border-radius: 5px;
+}
+
+
+#image4{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('bmwImages/4th.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 29rem;
+    margin-top: 2rem;
+}
+
+.aboutText3 H4{
+    color: white;
+    font-size: 1rem;
+}
+
+.aboutText4{
+    position: relative;
+    top: 15rem;
+    left: 7rem;
+}
+
+.aboutText4 h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.aboutText4 h4{
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.25rem;
+}
+
+.aboutText4 button{
+    background-color: transparent;
+    border: 1px solid grey;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    color: white;
+    width: 15rem;
+    border-radius: 5px;
+}
+
+/* discription */
+
+.discription{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 5px;
+    margin-bottom: 2rem;
+}
+
+.discription img{
+    width: 40rem;
+    height: 25rem;
+}
+
+.discription div{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(68, 67, 67);
+    font-size: 1.5rem;
+}
+
+.write{
+    display: flex;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.write h3{
+    margin-right: 2rem;
+    font-size: .90rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.write #bold{
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    background-color: rgba(243, 235, 229, 0.235);
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    gap: 1;
+    padding: 1rem;
+}
+
+.footer div ul{
+    list-style: none;
+    margin-top: 4rem;
+    margin-right: 4rem;
+    margin-left: -5rem;
+}
+
+.footer div ul li{
+    line-height: 2.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footer div #spcl{
+    margin-left: -10rem;
+}
+
+.footer div ul #listHead{
+    font-size: .80rem;
+    font-weight: lighter;
+    color: rgb(66, 65, 65);
+}
+
+.footer #icons{
+    width: 18%;
+    margin-left: 5rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer #icons i{
+    font-size: 1.25rem;
+}
+
+footer #last{
+    background-color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#last h2{
+    margin-left: 6rem;
+    font-weight: 200;
+    color: rgb(73, 73, 73);
+}
+
+footer #last ul{
+    display: flex;
+    list-style: none;
+    margin-right: 4rem;
+}
+
+footer #last ul li{
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: .75rem;
+}
